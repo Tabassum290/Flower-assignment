@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+/* First Section designing */
+.first-section{
+  /* position:absolute; */
+  width:1920px;
+  height:850px;
+  display: flex;
+ background-color: rgba(229, 84, 115, 0.1);
+ margin: 0 auto;
+}
+.left-section h1 {
+  color: rgb(39, 39, 39);
+  font-size: 65px;
+  font-weight: 800;
+  text-align: left;
+  margin-left: 240px;
+  margin-top: 197px;
+}
+
+.left-description {
+  color: rgb(118, 119, 122);
+  font-size: 18px;
+  font-weight: 400;
+ margin-left: 240px;
+ text-align: left;
+ margin-top: 32px;
+}
+#btn{
+  width: 177px;
+  height: 64px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(255, 254, 254);
+  background-color: rgb(229, 84, 115);
+  border-radius: 8px ;
+  margin-left: 240px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 43px 20px 43px;
+}
+.right-section{
+  width: 635px;
+  height: 800px;
+ margin-left: 245px;
+ margin-top: 50px;
+ margin-right: 240px;
+}
+/* second-section styling */
+.second-section{
+margin-top: 178px;
+border: 2px solid black;
+margin: 0 auto;
+}
+.second-section h1{
+position: absolute;
+width: 392px;
+height: 48px;
+color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+text-align: center;
+align-items: center;
+}
+
+/* For Mobile */
+@media screen and (min-width:576px) and (max-width:900px) {
+  .first-section{
+    flex-direction: column;
+    
