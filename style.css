@@ -3,17 +3,20 @@
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
+    border: 2px solid red;
   }
- 
+ *{
+  border: 2px dashed green;
+ }
 /* First Section designing */
-.first-section{
+.flower-banner{
   /* position:absolute; */
   width:1920px;
   height:850px;
   display: flex;
-  background-color: rgba(229, 84, 115, 0.1);
+  background-color: rgba(229, 84, 115, 0.3);
   margin: 0 auto;
-  margin-bottom: 178px;
+  margin-bottom: 120px;
 }
 .left-section{
  width: 708px;
@@ -42,8 +45,8 @@
   text-align: left;
   margin-top: 32px;
 }
-#btn{
-  width: 167px;
+.btn-1{
+  width: 190px;
   height: 64px;
   font-size: 20px;
   font-weight: 700;
@@ -57,24 +60,27 @@
   justify-content: center;
   align-items: center;
   padding: 20px 43px 20px 43px;
+  border: none;
 }
 .right-section{
   width: 635px;
   height: 800px;
  margin-top: 50px;
  margin-right: 240px;
- 
-}
+ }
 /* second-section styling */
-.second-section{
-  width: 594px;
-  height: 132px;
+.feature-flower{
+  margin-bottom: 140px;
+}
+.feature-flower-describe , .insta-heading{
+width: 594px;
+height: 132px;
 border: 2px solid white;
 margin: 0 auto;
 margin-bottom: 48px;
 align-items: center;
 }
-.second-section h1{
+.feature-flower-describe h1 , .insta-heading h3{
 position: absolute;
 width: 400px;
 height: 48px;
@@ -85,22 +91,20 @@ line-height: 48px;
 text-align: center;
 align-items: center;
 margin-top: 10px;
-margin-left: 101px;
+margin-left: 120px;
 }
-.second-section p{
-  color: rgba(39, 39, 39, 0.6);
+.feature-flower-describe p , .insta-heading p{
+color: rgba(39, 39, 39, 0.9);
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
 letter-spacing: 0%;
 text-align: center;
 margin-top: 80px;
-
 }
-.second-section-img{
+.feature-flower-img{
   width: 1440px;
   height: 538px;
-  border: 2px solid black;
   margin: 0 auto;
   display: flex;
   gap: 24px;
@@ -151,15 +155,158 @@ background: rgba(71, 125, 17, 0.15);
   text-align: center;
   text-decoration-line: underline;
 }
-
-
+/* Third Section Styling */
+.third-section{
+width: 1440px;
+height: 320px;
+border-radius: 8px;
+background: rgba(39, 39, 39, 0.2);
+margin: 0 auto;
+border: 2px solid white;
+margin-bottom: 120px;
+}
+.img-align{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 80px;
+}
+ .para{
+  font-size: 24px;
+  color: rgba(39, 39, 39, 0.8);
+  font-weight: 600;
+  text-align: center;
+  margin-left: -120px;
+}
+.third-part .para{
+  margin-right: -100px;
+}
+/* Sale Section Styling */
+.sale-section{
+  width: 1620px;
+  height: 620px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.3);
+  margin: 0 auto;
+}
+.hot-deal{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left-part{
+  margin-top: 160px;
+}
+.left-part h3{
+  font-size: 40px;
+  font-weight: 800;
+  color: rgb(39, 39, 39);
+  line-height: 40px;
+}
+.color{
+  color:rgb(229, 84, 115);
+}
+.left-part p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(39, 39, 39, 0.9);
+}
+.btn-2{
+  width: 190px;
+  height: 64px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(255, 254, 254);
+  background-color: rgb(229, 84, 115);
+  border-radius: 8px ;
+  border: none;
+  padding: 20px 43px 20px 43px;
+  margin-left: 180px;
+}
+.right-part{
+  margin-top: 160px;
+}
+/* Instagram Section Styling */
+.insta-section{
+  width: 1440px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+.insta-img-container{
+  display: flex;
+  justify-content: space-between;
+}
+/* Latest-Deal Section */
+.latest-deal{
+  width: 1440px;
+  height: 450px;
+  margin-top: 120px;
+  margin: 0 auto;
+  background-image: url(./image/Rectangle\ 9.png);
+  border-radius: 8px;
+}
+.latest-deal h3 , .footer h3{
+  font-size: 40px;
+  font-weight: 800;
+  color: rgb(39, 39, 39);
+  line-height: 40px;
+  align-items: center;
+  margin-top: 120px;
+ text-align: center;
+}
+.latest-deal p , .footer p{
+color: rgba(39, 39, 39, 0.9);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: -15px;
+}
+input{
+  width: 700px;
+  height: 64px;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+margin-left:200px ;
+padding:0 10px;
+}
+.button .btn-1{
+  height: 64px;
+  margin-left: 940px;
+  margin-top: -66px;
+}
+/* Footer Section */
+.footer{
+width: 1920px;
+height: 450px;
+background-color: black;
+margin: 0 auto;
+margin-top: 120px;
+margin-bottom: 20px;
+}
+.footer h3 , .footer p{
+  color: white;
+}
+.footer .copy{
+  margin-top: 40px;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+}
 /* For Mobile */
 @media screen and (max-width:576px) {
-  .first-section{
+  .flower-banner{
     width: 100%;
     height: 100%;
-  
-    flex-direction: column;
+   flex-direction: column;
     }
     .left-section{
       width: 250px;
@@ -177,11 +324,13 @@ background: rgba(71, 125, 17, 0.15);
       margin-left: 10px;
       margin-top: none;
     }
-    #btn
+    .btn-1
     {
-      width: 100px;
-      height: 40px;
+      width: 160px;
+      height: 66px;
       margin-left: 10px;
+      padding: 0;
+      margin: 0;
     }
     .right-section{
       width: 300px;
